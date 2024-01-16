@@ -7,75 +7,75 @@
 }
 
 .normal {
-    background-color: #a6a877;
+    background-image: linear-gradient(#a6a877,#82845f);
 }
 
 .grass {
-    background-color: #77c850;
+    background-image: linear-gradient(#77c850,#579939) ;
 }
 
 .fire {
-    background-color: #ee7f30;
+    background-image: linear-gradient(#ee7f30, #c76a28);
 }
 
 .water {
-    background-color: #678fee;
+    background-image: linear-gradient(#678fee, #4f73c8);
 }
 
 .electric {
-    background-color: #f7cf2e;
+    background-image: linear-gradient(#f7cf2e,#cfab1d);
 }
 
 .ice {
-    background-color: #98d5d7;
+    background-image: linear-gradient(#98d5d7,#6eacae);
 }
 
 .ground {
-    background-color: #dfbf69;
+    background-image: linear-gradient(#dfbf69,#a4883a);
 }
 
 .flying {
-    background-color: #a98ff0;
+    background-image: linear-gradient(#a98ff0,#7f66c5);
 }
 
 .poison {
-    background-color: #a040a0;
+    background-image: linear-gradient(#a040a0,#852d85);
 }
 
 .fighting {
-    background-color: #bf3029;
+    background-image: linear-gradient(#bf3029,#9c211a);
 }
 
 .psychic {
-    background-color: #f65687;
+    background-image: linear-gradient(#f65687,#b6375d);
 }
 
 .dark {
-    background-color: #725847;
+    background-image: linear-gradient(#725847,#614736);
 }
 
 .rock {
-    background-color: #b8a137;
+    background-image: linear-gradient(#b8a137,#917d24);
 }
 
 .bug {
-    background-color: #a8b720;
+    background-image: linear-gradient(#a8b720,#89961b);
 }
 
 .ghost {
-    background-color: #6e5896;
+    background-image: linear-gradient(#6e5896,#564279);
 }
 
 .steel {
-    background-color: #b9b7cf;
+    background-image: linear-gradient(#b9b7cf,#8784a4);
 }
 
 .dragon {
-    background-color: #6f38f6;
+    background-image: linear-gradient(#6f38f6,#4e24b8);
 }
 
 .fairy {
-    background-color: #f9aec7;
+    background-image: linear-gradient(#f9aec7,#dc87a4);
 }
 
 .pokemon {
@@ -84,6 +84,7 @@
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    box-shadow: 6px 7px 18px black;
 }
 
 .pokemon .number {
@@ -123,7 +124,7 @@
 }
 
 .pokemon .detail img {
-    max-width: 100%;
+    max-width: 78%;
     height: 70px;
 }
 
