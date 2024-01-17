@@ -25,7 +25,7 @@
 <body>
     <section class="content">
         <h1 class="pokedexLogo"><img src="https://user-images.githubusercontent.com/29473781/180619084-a56960ab-7efa-4e34-9d33-4e3e581d62ff.png"></h1>
-
+        <div id="button">texto</div>
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
         </ol>
@@ -35,6 +35,20 @@
                 Load More
             </button>
         </div>
+        <dialog id="modal-name">
+            <div class="pokemon ${pokemon.type}">
+                <span id="modal-number" class="number">001</span>
+                <span class="name">pokemon</span>
+                
+                <div class="detail">
+                    <ol class="types">
+                        <li class="type ${type}"></li>
+                    </ol>
+    
+                   
+                </div>
+            </div>
+        </dialog>
     </section>
 
     <!-- Nosso JS -->

@@ -147,6 +147,15 @@
     border-radius: 1rem;
 }
 
+.pokemon2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 4.2rem;
+    border-radius: 1rem;
+    
+}
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
