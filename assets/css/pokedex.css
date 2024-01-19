@@ -85,6 +85,13 @@
     padding: 1rem;
     border-radius: 1rem;
     box-shadow: 6px 7px 18px black;
+    transform: scale(0.98);
+}
+
+.pokemon:hover {
+    cursor: pointer;
+    filter: brightness(1.2);
+    transform: scale(1);
 }
 
 .pokemon .number {
@@ -107,19 +114,19 @@
     justify-content: space-between;
 }
 
-.pokemon .detail .types {
+.types {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.pokemon .detail .types .type {
+.type {
     color: #fff;
     padding: .25rem .5rem;
     margin: .25rem 0;
     font-size: .625rem;
     border-radius: 1rem;
-    filter: brightness(1.1);
+    filter: brightness(1.15);
     text-align: center;
 }
 
@@ -147,6 +154,12 @@
     border-radius: 1rem;
 }
 
+.pagination button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .pokemon2 {
     display: flex;
     flex-direction: column;
@@ -154,6 +167,108 @@
     padding: 4.2rem;
     border-radius: 1rem;
     
+}
+
+#modal-box {
+    border: none;
+    padding: 0;
+    border-radius: 1rem;
+}
+
+.pop-up {
+    
+    border-radius: 1rem;
+    border: #000;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pop-up img {
+    height: auto;
+    width: -webkit-fill-available;
+    max-width: 70%;
+    align-self: center;
+    max-height: 18rem;
+}
+
+.name-modal {
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: .25rem;
+    font-size: 1.5rem;
+    margin-left: .5rem;
+}
+
+#modal-number {
+    text-align: end;
+    margin-right: .5rem;
+    margin-top: .5rem;
+}
+
+.modal-types {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-top: .5rem;
+}
+
+.modal-type {
+    color: #fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .835rem;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    filter: brightness(1.15);
+    text-align: center;
+    margin-left: .5rem;
+}
+
+.modal-details {
+    color: #6f6f6f;
+    padding: 0.25rem 0.5rem;
+    font-size: .625rem;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    align-self: center;
+}
+
+.modal-details-box {
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 2fr 1fr 5fr;
+    border-radius: 0.9rem;
+}
+
+.all-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.modal-stats {
+    padding: 0.25rem 0.5rem;
+    font-size: .625rem;
+    margin-top: .325rem;
+}
+
+.weight-height {
+    text-align: center;
+    color: #6f6f6f;
+    
+}
+
+.return {
+    box-sizing: content-box;
+    width: 2rem;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+}
+
+.return:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 @media screen and (min-width: 380px) {

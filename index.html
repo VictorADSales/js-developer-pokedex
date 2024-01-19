@@ -25,7 +25,7 @@
 <body>
     <section class="content">
         <h1 class="pokedexLogo"><img src="https://user-images.githubusercontent.com/29473781/180619084-a56960ab-7efa-4e34-9d33-4e3e581d62ff.png"></h1>
-        <div id="button">texto</div>
+        
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
         </ol>
@@ -35,17 +35,59 @@
                 Load More
             </button>
         </div>
-        <dialog id="modal-name">
-            <div class="pokemon ${pokemon.type}">
-                <span id="modal-number" class="number">001</span>
-                <span class="name">pokemon</span>
+
+        <dialog id="modal-box">
+            <div class="pop-up" class="pokemon ${pokemon.type}">
+                <span id="modal-number">001</span>
+                <span class="name-modal">bulbassauro</span>
+                <ol class="modal-types">
+                    <li class="modal-type">grass</li>
+                    <li class="modal-type">poison</li>
+                </ol>
+                <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png">
                 
                 <div class="detail">
                     <ol class="types">
-                        <li class="type ${type}"></li>
+                        <div class="modal-details-box">
+                        <li class="modal-details" style="margin-top: .5rem;">HP</li>
+                        <li class="modal-details" style="margin-top: .5rem;">45</li>
+                        <li class="modal-details" style="margin-top: .5rem;"><div style="background-color: rgb(189, 189, 189);"><div style="height: 0.25rem;;width:45%;background-color: rgb(45, 163, 12);border-radius: 1rem;"></div></div></li>
+
+                        <li class="modal-details">Attack</li>
+                        <li class="modal-details">60</li>
+                        <li class="modal-details"><div style="background-color: rgb(189, 189, 189);"><div style="height: 0.25rem;;width:60%;background-color: rgb(45, 163, 12);border-radius: 1rem;"></div></div></li>
+                        
+                        <li class="modal-details">Defense</li>
+                        <li class="modal-details">60</li>
+                        <li class="modal-details"><div style="background-color: rgb(189, 189, 189);"><div style="height: 0.25rem;;width:60%;background-color: rgb(45, 163, 12);border-radius: 1rem;"></div></div></li>
+                        
+                        <li class="modal-details">Sp. Atk</li>
+                        <li class="modal-details">60</li>
+                        <li class="modal-details"><div style="background-color: rgb(189, 189, 189);"><div style="height: 0.25rem;;width:60%;background-color: rgb(45, 163, 12);border-radius: 1rem;"></div></div></li>
+
+                        <li class="modal-details">Sp. Def</li>
+                        <li class="modal-details">60</li>
+                        <li class="modal-details"><div style="background-color: rgb(189, 189, 189);"><div style="height: 0.25rem;;width:60%;background-color: rgb(45, 163, 12);border-radius: 1rem;"></div></div></li>
+
+                        <li class="modal-details">Speed</li>
+                        <li class="modal-details">60</li>
+                        <li class="modal-details"><div style="background-color: rgb(189, 189, 189);"><div style="height: 0.25rem;;width:60%;background-color: rgb(45, 163, 12);border-radius: 1rem;"></div></div></li>
+
+                        <li class="modal-details">Total</li>
+                        <li class="modal-details">60</li>
+                        <li class="modal-details"><div style="background-color: rgb(189, 189, 189);"><div style="height: 0.25rem;;width:60%;background-color: rgb(45, 163, 12);border-radius: 1rem;"></div></div></li>
+                                  
+                        <li class="modal-stats weight-height">Height</li>
+                        
+                        <li class="modal-stats" style="width: 3.5rem;">70 cm</li>
+                        <li></li>
+                        <li class="modal-stats weight-height" style="margin-bottom: 2rem;">Weight</li>
+                        
+                        <li class="modal-stats" style="width: 3.5rem;margin-bottom: 2rem;">15.2 lb's</li>
+                        
+                        
+                        </div>
                     </ol>
-    
-                   
                 </div>
             </div>
         </dialog>
