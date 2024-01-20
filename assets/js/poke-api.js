@@ -27,6 +27,8 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
     pokemon.speed = stats[5]
     pokemon.total = Number(pokemon.hp) + Number(pokemon.attack) + Number(pokemon.defense) + Number(pokemon.specialAttack) + Number(pokemon.specialDefense) + Number(pokemon.speed)
 
+    const habilidades = pokeDetail.abilities.map((abilitieSlot) => abilitieSlot.ability.name).join(', ')
+    pokemon.habilidades = habilidades
     return pokemon
 }
 

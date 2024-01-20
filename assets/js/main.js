@@ -75,22 +75,20 @@ function convertPokemonToLi(pokemon) {
                     <li class="modal-details">Total</li>
                     <li class="modal-details">${pokemon.total}</li>
                     <li class="modal-details"><div style="background-color: rgb(189, 189, 189);"><div style="height: 0.25rem;;width:${Number(pokemon.total) * 0.15}%;background-color: rgb(45, 163, 12);border-radius: 1rem;max-width: -webkit-fill-available;"></div></div></li>
-                            
                     <li class="modal-stats weight-height">Height</li>
-                    
+                            
                     <li class="modal-stats" style="width: 3.5rem;">${pokemon.height} cm</li>
-                    <li></li>
+                    <li class="modal-details habilidades">Habilidades: ${pokemon.habilidades}</li>
                     <li class="modal-stats weight-height" style="margin-bottom: 2rem;">Weight</li>
-                    
+                            
                     <li class="modal-stats" style="width: 3.5rem;margin-bottom: 2rem;">${pokemon.weight} lb's</li>
-                    
-                    
                     </div>
                 </ol>
             </div>
         </div>`
         document.getElementById('modal-box').innerHTML = novoTexto
         document.getElementById('modal-box').showModal()
+        console.log(pokemon.habilidades)
     })
     return node
 }

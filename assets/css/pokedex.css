@@ -204,6 +204,9 @@
     text-align: end;
     margin-right: .5rem;
     margin-top: .5rem;
+    position: relative;
+    top: 2rem;
+    font-size: 1.7rem;
 }
 
 .modal-types {
@@ -228,7 +231,7 @@
 .modal-details {
     color: #6f6f6f;
     padding: 0.25rem 0.5rem;
-    font-size: .625rem;
+    font-size: .725rem;
     border-radius: 1rem;
     filter: brightness(1.1);
     text-align: center;
@@ -249,7 +252,7 @@
 
 .modal-stats {
     padding: 0.25rem 0.5rem;
-    font-size: .625rem;
+    font-size: .725rem;
     margin-top: .325rem;
 }
 
@@ -269,6 +272,16 @@
 .return:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
+
+.habilidades {
+    text-transform: capitalize;
+    text-align: right;
+    position: relative;
+    bottom: -1.75rem;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: bolder;
 }
 
 @media screen and (min-width: 380px) {
